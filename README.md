@@ -24,7 +24,7 @@ Because a webdriver is not a browser but manipulates a pre-existing one.
 
 Now, for some slightly more technical documention.
 
-Session tokens are saved in local storage.json & session_tokens.pkl, but are un-used. I am sure it could be implemented to take tokens from an existing browser & inject them into chrome removing the need to sign in even once, but the script does everything I want it to now, so I bequeeth it's undertaking unto the community.
+Session tokens are no longer saved in local storage.json & session_tokens.pkl, being un-used. I am sure it could be implemented to take tokens from an existing browser & inject them into chrome removing the need to sign in even once, but the script does everything I want it to now, so I bequeeth it's undertaking unto the community.
 If that were done, the entire selenium profile folder generated from using a saved profile could be eliminated, but, session_tokens.pkl & local_storage.json would need to be deleted for privacy.
 
 That is all, the documentation I think is required. I have never started an opensource project before, but feel free to do with it as you please, so long as this project, me, & it's contributers, however few, are credited.
