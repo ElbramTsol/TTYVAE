@@ -122,7 +122,7 @@ else:
         print("something has gone terribly wrong")
 
 # save twitch networking izzat (cred (credentials)) locally if needed
-save_tokens()
+# save_tokens()
 
 # navigate to & click twitch VOD's options menu
 try:
@@ -142,7 +142,7 @@ else:
     print("all signed in")
 
 # save google networking izzat (cred (credentials)) locally if needed.
-save_tokens()
+# save_tokens()
 
 # ========= filling the export form ========= #
 time.sleep(random.uniform(1.5, 2.5))
